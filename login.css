@@ -1,0 +1,92 @@
+body {
+    font-size: 15pt;
+    background-image:url('/images2/Anime Background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}    
+#A{
+  background-image:url("/images2/InShot_20240102_173009324.gif#6C96FF");
+  background-repeat:no-repeat ;
+  background-size:cover ;
+  border: 1px dotted black;
+  border-radius:5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#6C96FF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111
+}
+.A{
+    border: 2px solid black;
+    border-radius: 15px;
+    align-items: center;
+    background-image:url('/images2/Back.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:30vh;
+    margin-top: 30%;
+}
+.B{
+  background-color: #0000006E;
+  border:1px solid white;
+  border-radius:5%;
+  margin-top:15%;
+  margin-left:25%;
+  width:50%;
+  height:50%;
+}
+#m{
+  margin-top: 2%;
+  margin-left:3%;
+}
+#n{
+  margin-top:2%;
+}
+button{
+  margin-top: 1%;
+}
+#l{
+  background-color:#6C96FF;
+  border:1% solid black;
+  border-radius:5%;
+  
+}
+p a{
+  color: white;
+  text-decoration-line: none;
+}
+.hidden {
+  display: none;
+}
+#D {
+  font-size: 15pt;
+  background-color: #6C96FF;
+  padding: 10px;
+  margin-top: 90%;
+  margin-bottom: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
