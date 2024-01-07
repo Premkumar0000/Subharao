@@ -44,7 +44,7 @@ li a:hover {
   border: 2px solid white;
   background-color:#6CB3FFA8;
   width: 100%;
-  height: 31vh;
+  height: 50vh;
   margin-top:3%;
 }
 #a{
@@ -60,7 +60,7 @@ li a:hover {
     border: 2px solid white;
     background-color:#6CB3FFA8;
     width: 100%;
-    height: 33vh;
+    height: 50vh;
     margin-top:2%;
 }
 /* CSS code FOR CLASS - D */
@@ -69,7 +69,7 @@ li a:hover {
     border: 2px solid white;
     background-color:#6CB3FFA8;
     width: 100%;
-    height: 38vh;
+    height: 50vh;
     margin-top:2%;
 }
 /* CSS code FOR CLASS - E */
@@ -78,7 +78,7 @@ li a:hover {
       border: 2px solid white;
       background-color:#6CB3FFA8;
       width: 100%;
-      height: 34vh;
+      height: 50vh;
       margin-top:2%;
 }
 /* CSS code FOR CLASS - F */
@@ -87,7 +87,7 @@ li a:hover {
         border: 2px solid white;
         background-color:#6CB3FFA8;
         width: 100%;
-        height: 38vh;
+        height: 50vh;
         margin-top:2%;
 }
 /* CSS code FOR CLASS - G */
@@ -96,7 +96,7 @@ li a:hover {
   border: 2px solid white;
   background-color: #6CB3FFA8;
   width: 100%;
-  height: 34vh;
+  height: 50vh;
   margin-top:2%;
 }
 /* CSS code FOR CLASS - H */
@@ -105,7 +105,7 @@ li a:hover {
   border: 2px solid white;
   background-color: #6CB3FFA8;
   width: 100%;
-  height: 34vh;
+  height: 50vh;
   margin-top: 2%;
 }
 /* CSS code FOR CLASS - I */
@@ -114,7 +114,15 @@ li a:hover {
   border: 2px solid white;
   background-color: #6CB3FFA8;
   width: 100%;
-  height: 31vh;
+  height: 50vh;
   margin-top: 2%;
   margin-bottom:5%;
+}
+
+@media (max-width : 924px){
+  #a{
+    width: 100%;
+    margin-top: 10%;
+    
+  }
 }
