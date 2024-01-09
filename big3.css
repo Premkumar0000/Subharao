@@ -1,6 +1,6 @@
 body {
   font-size: 15pt;
-  background-image:url('/images2/Anime Background.jpg');
+  background-image:url('images2/Anime Background.jpg');
   background-repeat:no-repeat;
   background-size:cover;
   color:white;
@@ -10,7 +10,7 @@ body {
 }
 /*Header Style*/
 #A{
-background-image:url("/images2/InShot_20240102_173009324.gif#6C96FF");
+background-image:url("images2/InShot_20240102_173009324.gif#6C96FF");
 background-repeat:no-repeat ;
 background-size:cover ;
 color: white;
