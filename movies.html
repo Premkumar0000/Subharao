@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <title>Bootstrap 4 Navbar</title>
     <link rel="stylesheet" href="movies.css">
 
 </head>
@@ -14,19 +15,49 @@
   <p>Browse for best anime suggetions</p>
 </header>
 <body>
+       <nav class="navbar navbar-expand-lg navbar-light bg-" id="go">
+         <a class="navbar-brand" href="#"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="Homepage.html">Home <span class="sr-only">(current)</span></a>
+              </li>            
+             <li class="nav-item active">
+               <a class="nav-link" href="big3.html">Big Three <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="opa.html">Other Popular Anime</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="movies.html">Movies</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="login.html">Login/SignUp</a>
+             </li>
+           </ul>
+         </div>
+       </nav>
+
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--
   <ul>
     <li><a href="Homepage.html">Home</a></li>
     <li><a href="big3.html">Big3 series</a></li>
     <li><a href="opa.html">Other Popular Anime</a></li>
     <li><a href="movies.html">movies</a></li>
     <li><a href="login.html">Login/Signup</a></li>
-  </ul>
+  </ul>-->
   
   <div class="AB">
     
     <div class="CD">
       <h2 id="e">A Silent Voice</h2>
-      <video id ="f"controls >
+      <video id ="f"controls  >
         <source src="/videos/A Silent Voice - Official Trailer (720p).mp4" type="video/mp4">
       </video>
           <p id="g">"A Silent Voice" is a Japanese animated film based on the manga of the same name. It explores themes of redemption, forgiveness, and communication difficulties, particularly related to deafness and bullying. The story follows the complex relationship between a former bully and his deaf classmate. <br /> <center><b>
@@ -63,7 +94,8 @@
     <h2 id="e">Hello World</h2>
     <video id="f" controls >
       <source src="/videos/映画『HELLO WORLD（ハロー・ワールド）』予告【2019年9月20日(金)公開】 (720p).mp4" type="video/mp4">
-    </video>
+
+</video>
     <p id="g">"Hello World" follows the story of a young man named Naomi who discovers that he can communicate with his past self through his smartphone. As he navigates this newfound ability, he unravels a complex web of relationships, time travel, and the impact of his choices on the future. The film combines elements of romance and science fiction, creating a thought-provoking narrative.<br />
     <center><b>
       Director : Tomohiko Ito <br />
@@ -139,7 +171,8 @@
 </div>
 
 <div class="AB">
-  <div class="CD">
+
+<div class="CD">
     <h2 id="e">The Garden of Words</h2>
     <video id="f" controls >
       <source src="/videos/The Garden of Words_ Trailer (720p).mp4" type="video/mp4">
@@ -186,9 +219,7 @@
     </p>
   </div>
 </div>
-<footer id="C">
-  Made with SPCK Editor
-</footer>
+
 <script src="movies.js"></script>
 </body>
 </html>

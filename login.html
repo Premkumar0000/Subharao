@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <title>Bootstrap 4 Navbar</title>
   <link rel="stylesheet" href="login.css">
 </head>
 <header id="A">
@@ -12,35 +13,64 @@
   <p>Browse for best anime suggetions</p>
 </header>
 <body>
+       <nav class="navbar navbar-expand-lg navbar-light bg-"id="go">
+         <a class="navbar-brand" href="#"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                 <a class="nav-link" href="Homepage.html">Home <span class="sr-only">(current)</span></a>
+               </li>           
+             <li class="nav-item active">
+               <a class="nav-link" href="big3.html">Big Three <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="opa.html">Other Popular Anime</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="movies.html">Movies</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="login.html">Login/SignUp</a>
+             </li>
+           </ul>
+         </div>
+       </nav>
+
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <!--
   <ul>
     <li><a href="Homepage.html">Home</a></li>
     <li><a href="big3.html">Big3 series</a></li>
     <li><a href="opa.html">Other Popular Anime</a></li>
     <li><a href="movies.html">movies</a></li>
     <li><a href="login.html">Login/Signup</a></li>
-  </ul>
+  </ul> -->
   <div class="A">
     
     <div class="B">
       <center>
-        <form>
+        <form onsubmit="submitForm()">
           <h1>Login/SignUp</h1>
           <label for="Email">E-mail:</label>
-          <input id="m" type="email"><br />
+          <input id="m" name="y" type="email"><br />
           <label for="Password">Password:</label>
-          <input id="n" type="password"><br />
-          <button id="l" onsubmit="submitform()">Submit</button>
-          <p>don't you have an account <a href="#Creat">Click here </a>to creat</p>
+          <input id="n" name="y" type="password"><br />
+          <button id="l" type="submit">Submit</button>
+          <p>Don't have an account? <a href="#Creat">Click here</a> to create one.</p>
         </form>
+        
 
 
       </center>
     </div>
     
   </div>
-  <footer id="D">
-    Made with SPCK Editor
-  </footer>
+
   <script src="login.js"></script>
  </body>
 </html>

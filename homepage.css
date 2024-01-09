@@ -1,128 +1,75 @@
 body {
-    font-size: 15pt;
-    background-image:url('/images2/Anime Background.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    color:white;
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    
+  font-size: 15pt;
+  background-image:url('/images2/Anime Background.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  
 }
 #A{
-  background-image:url("/images2/InShot_20240102_173009324.gif");
-  background-repeat:no-repeat ;
-  background-size:cover ;
-  border: 1px dotted black;
-  border-radius:5px;
+background-image:url("/images2/InShot_20240102_173009324.gif");
+background-repeat:no-repeat ;
+background-size:cover ;
+color: white;
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+border: 1px double black;
+border-radius:5px;
+}
+#names{
+ font-family:'Times New Roman', Times, serif;
+ color: white;
+ font-style: italic;
+ font-size: smaller;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:#6C96FF;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#6C96FF;
 }
 
 li {
-  float: left;
+float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+background-color:white;
 }
 /* CSS code FOR CLASS - B */
 .B{
-  border: 2px solid white;
-  background-color:#6CB3FFA8;
-  width: 100%;
-  height: 50vh;
-  margin-top:3%;
+border: 2px solid white;
+background-color:#6CB3FFA8;
+width: 100%;
+height: 100%;
+margin-top:3%;
 }
 #a{
-  margin-top: 2%;
+margin-top: 2%;
 }
 #C{
-  background-color:#6C96FF;
-  padding: 10px;
+background-color:#6C96FF;
+padding: 10px;
 }
-/* CSS code FOR CLASS - C*/
-
-.C{
-    border: 2px solid white;
-    background-color:#6CB3FFA8;
-    width: 100%;
-    height: 50vh;
-    margin-top:2%;
+#go {
+background-color: #6C96FF;
 }
-/* CSS code FOR CLASS - D */
-
-.D{
-    border: 2px solid white;
-    background-color:#6CB3FFA8;
-    width: 100%;
-    height: 50vh;
-    margin-top:2%;
-}
-/* CSS code FOR CLASS - E */
-
-.E{
-      border: 2px solid white;
-      background-color:#6CB3FFA8;
-      width: 100%;
-      height: 50vh;
-      margin-top:2%;
-}
-/* CSS code FOR CLASS - F */
-
-.F{
-        border: 2px solid white;
-        background-color:#6CB3FFA8;
-        width: 100%;
-        height: 50vh;
-        margin-top:2%;
-}
-/* CSS code FOR CLASS - G */
-
-.G{
-  border: 2px solid white;
-  background-color: #6CB3FFA8;
+/*Media Query */
+@media (max-width : 924px) {
+#a {
   width: 100%;
-  height: 50vh;
-  margin-top:2%;
+  margin-top: 10%;
 }
-/* CSS code FOR CLASS - H */
-
-.H{
-  border: 2px solid white;
-  background-color: #6CB3FFA8;
-  width: 100%;
-  height: 50vh;
-  margin-top: 2%;
-}
-/* CSS code FOR CLASS - I */
-
-.I {
-  border: 2px solid white;
-  background-color: #6CB3FFA8;
-  width: 100%;
-  height: 50vh;
-  margin-top: 2%;
-  margin-bottom:5%;
-}
-
-@media (max-width : 924px){
-  #a{
-    width: 100%;
-    margin-top: 10%;
-    
-  }
 }

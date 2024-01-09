@@ -1,84 +1,102 @@
 body {
-    font-size: 15pt;
-    background-image:url('/images2/Anime Background.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    color:white;
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
+  font-size: 15pt;
+  background-image:url('/images2/Anime Background.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  align-items: center;
 }
+/*Header Style*/
 #A{
-  background-image:url("/images2/InShot_20240102_173009324.gif#6C96FF");
-  background-repeat:no-repeat ;
-  background-size:cover ;
-  border: 1px dotted black;
-  border-radius:5px;
+background-image:url("/images2/InShot_20240102_173009324.gif#6C96FF");
+background-repeat:no-repeat ;
+background-size:cover ;
+color: white;
+text-align: center;
 }
+/*Header style ended here*/
+
+/*Nav Bar style starting */
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:#6C96FF;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#6C96FF;
 }
 
 li {
-  float: left;
+float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111
+background-color:white;
 }
+/*Nav Bar style ending*/
+/*Images class*/
+.B{
+height:100%;
+width:100%;
+margin-top:5%;
+margin-bottom:5%;
+display: flex;
+flex-flow: left;
+}
+/*images class ended here*/
+/*image Id*/
 #a{
-  height:30%;
-  width:30%;
-  margin-top:5%;
-  margin-bottom:5%;
+width:30%;
+margin-right:5%;
 }
-#C{
-  text-align: center;
+/*img id ended here*/
+
+/*for paragraphs*/
+.about{
+border: 2px solid white;
+border-radius:5px;
+background-color: #6CB3FFA8;
+width: 100%;
+height: 100%;
+margin-top: 5%;
+display: flex;
+flex-flow: left;
 }
-table { 
-  border-collapse: collapse; 
-} 
-td, th { 
-  border:1px solid #FFFFFF; 
-  padding: 5px;
-  width: 135px;
-} 
-th { 
-  background-color:#6C96FF; 
-  color: white;
-}
-#D{
-  background-color:#6C96FF;
-  padding:10px;
-  margin-top: 49vh;
-  margin-bottom:0%;
-}
-.C {
-  border: 2px solid white;
-  background-color: #6CB3FFA8;
-  width: 30%;
-  height: 15vh;
-  margin-top: 5%;
-  margin-left: 2%;
-  float: left;
-  
+.C{
+border:2px solid floralwhite;
+border-radius: 5px;
+font-size: smaller;
+margin: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+text-align: justify;
+font-size: none;
+
 }
 #n{
-  text-decoration-line: underline;
+text-decoration-line: underline;
+text-align: center;
 }
-#na{
-  text-align: justify;
-  
+#go{
+background-color: #6C96FF;
+}
+/*paragraphs ended here*/
+@media (max-width: 924px) {
+.C{
+  width: 100%;
+  font-size: 5pt;
+}
+#n{
+  font-size: 7pt;
+}
 }

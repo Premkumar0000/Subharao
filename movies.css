@@ -1,70 +1,81 @@
 body {
-    font-size: 15pt;
-    background-image:url('/images2/Anime Background.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    color:white;
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
+  font-size: 15pt;
+  background-image:url('/images2/Anime Background.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
 }    
 #A{
-  background-image:url("/images2/InShot_20240102_173009324.gif#6C96FF");
-  background-repeat:no-repeat ;
-  background-size:cover ;
-  border: 1px dotted black;
-  border-radius:5px;
+background-image:url("/images2/InShot_20240102_173009324.gif#6C96FF");
+background-repeat:no-repeat ;
+background-size:cover ;
+border: 1px dotted black;
+border-radius:5px;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:#6C96FF;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#6C96FF;
 }
 
 li {
-  float: left;
+float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111
+background-color:white;
 }
 .AB{
-  border: 2px solid white;
-  border-radius:5%;
-  background-color: #6CB3FFA8;
-  width: 97%;
-  height: 40vh;
-  margin-top: 2%;
-  margin-left: 1%;
-  margin-right: 2%;
+border: 2px solid white;
+border-radius:5%;
+background-color: #6CB3FFA8;
+width: 100%;
+height: 100%;
+margin-top: 2%;
+margin-left: 1%;
+margin-right: 2%;
 }
 #e{
-  text-decoration: underline;
+text-decoration: underline;
 }
 #f{
-  width:80%;
-  border:1px solid #000000;
-  border-radius:5%;
+width:80%;
+border:1px solid #000000;
+border-radius:5%;
 }
 
 #g{
-  margin-top:5%;
-  margin-right: 2%;
-  margin-left: 2%;
-  text-align: justify;
+margin-top:5%;
+margin-right: 2%;
+margin-left: 2%;
+text-align: justify;
 }
 #C {
-  margin-top: 2%;
-  background-color: #6C96FF;
-  padding: 10px;
+margin-top: 2%;
+background-color: #6C96FF;
+padding: 10px;
+}
+#go {
+background-color: #6C96FF;
+}
+@media(max-width: 924px){
+.AB{
+  font-size: 5pt;
+}
+#e{
+  font-size: 10pt;
+}
 }
